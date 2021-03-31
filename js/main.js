@@ -21,12 +21,12 @@
 
         infowindow.open(map, marker);
 
-        //add overlay
+
         map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('map-overlay'));
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
-   // navigator.geolocation.getCurrentPosition(initialize);
+
     jQuery(document).ready(function ($) {
 
 
@@ -51,7 +51,7 @@
             });
             return false;
         });
-       // jQeury smooth scroll
+
         $("li.smooth-scroll a").bind("click", function(event){
             var $anchor = $(this);
             var headerH = "50";
@@ -66,13 +66,13 @@
             event.preventDefault();
 
         });
-        //jquery scroll spy
+
         $("body").scrollspy({
             target: ".navbar-collapse",
             offset: 95
         });
         new WOW().init();
-        //Pretty Photo
+      
         $("a[data-gallery^='prettyPhoto']").prettyPhoto({
             social_tools: false
         });

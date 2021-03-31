@@ -1,4 +1,4 @@
-/* Medium Layout: 1280px. */
+
 @media only screen and (min-width: 992px){
 	.row.no-gutter .col-md-2 {
 		width: 20%!important;
@@ -7,9 +7,9 @@
 		left: 40%;
 		bottom: 170px;
 	}
-    
+
 }
-/* Tablet Layout: 768px. */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	#myNavbar ul li {
 		padding: 38px 9px 31px;
@@ -39,7 +39,7 @@
 		float: none;
 	}
 }
-/* Mobile Layout: 320px. */
+
 @media only screen and (max-width: 767px) {
 	header .navbar-brand {
 		padding: 6px 16px;
@@ -74,7 +74,7 @@
 		height: 8px;
 	}
 }
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
 }
